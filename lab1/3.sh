@@ -22,6 +22,6 @@ elif [[ $choice -eq 4 ]]; then
 else
 	tput setaf 1
 	echo "! $choice IS NOT A VALID MENU OPTION !"
-	tput seg0
+	tput sgr0
 	exit 1
 fi
